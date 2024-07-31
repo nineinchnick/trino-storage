@@ -47,12 +47,12 @@
         <air.build.jvmsize>4g</air.build.jvmsize>
 
         <dep.trino.version>453</dep.trino.version>
-        <dep.airlift.version>251</dep.airlift.version>
+        <dep.airlift.version>252</dep.airlift.version>
         <dep.slice.version>2.2</dep.slice.version>
         <dep.opentelemetry.version>1.40.0</dep.opentelemetry.version>
         <dep.opentelemetry-instrumentation.version>2.6.0</dep.opentelemetry-instrumentation.version>
         <dep.packaging.version>${dep.airlift.version}</dep.packaging.version>
-        <dep.aws-sdk.version>1.12.766</dep.aws-sdk.version>
+        <dep.aws-sdk.version>1.12.767</dep.aws-sdk.version>
         <dep.guava.version>33.2.1-jre</dep.guava.version>
         <dep.guice.version>7.0.0</dep.guice.version>
         <dep.errorprone.version>2.29.2</dep.errorprone.version>
@@ -465,7 +465,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>3.1.1</version>
                 <configuration>
                     <scmCommentPrefix>[ci skip]</scmCommentPrefix>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
