@@ -5,7 +5,7 @@
     <parent>
         <groupId>io.airlift</groupId>
         <artifactId>airbase</artifactId>
-        <version>158</version>
+        <version>160</version>
     </parent>
 
     <groupId>org.ebyhr</groupId>
@@ -47,17 +47,17 @@
         <air.build.jvmsize>4g</air.build.jvmsize>
 
         <dep.trino.version>453</dep.trino.version>
-        <dep.airlift.version>251</dep.airlift.version>
+        <dep.airlift.version>258</dep.airlift.version>
         <dep.slice.version>2.2</dep.slice.version>
         <dep.opentelemetry.version>1.40.0</dep.opentelemetry.version>
         <dep.opentelemetry-instrumentation.version>2.6.0</dep.opentelemetry-instrumentation.version>
         <dep.packaging.version>${dep.airlift.version}</dep.packaging.version>
-        <dep.aws-sdk.version>1.12.766</dep.aws-sdk.version>
+        <dep.aws-sdk.version>1.12.767</dep.aws-sdk.version>
         <dep.guava.version>33.2.1-jre</dep.guava.version>
         <dep.guice.version>7.0.0</dep.guice.version>
         <dep.errorprone.version>2.29.2</dep.errorprone.version>
         <dep.jackson.version>2.17.2</dep.jackson.version>
-        <dep.testcontainers.version>1.20.0</dep.testcontainers.version>
+        <dep.testcontainers.version>1.20.1</dep.testcontainers.version>
         <dep.docker-java.version>3.4.0</dep.docker-java.version>
         <dep.joda.version>2.12.7</dep.joda.version>
         <dep.junit.version>5.10.3</dep.junit.version>
@@ -107,7 +107,7 @@
             <dependency>
                 <groupId>org.checkerframework</groupId>
                 <artifactId>checker-qual</artifactId>
-                <version>3.45.0</version>
+                <version>3.46.0</version>
             </dependency>
             <dependency>
                 <groupId>org.openjdk.jol</groupId>
@@ -465,7 +465,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>3.1.1</version>
                 <configuration>
                     <scmCommentPrefix>[ci skip]</scmCommentPrefix>
                     <tagNameFormat>v@{project.version}</tagNameFormat>
